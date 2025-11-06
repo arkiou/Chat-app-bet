@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Transparent pricing for guided buggy adventures in Kanakia Salamina. Choose 30-minute, 1-hour, or 2-hour off-road experiences."
+      content="Διάλεξε τη διάρκεια που σου ταιριάζει για μια καθοδηγούμενη βόλτα με buggy στην Κανάκια Σαλαμίνας. Τιμές για 30 λεπτά, 1 ώρα ή 2 ώρες."
     />
-    <title>Prices | Salamina Off-Road Adventures</title>
+    <title>Τιμές | Salamina Off-Road Adventures</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +19,7 @@
   <body>
     <header>
       <div class="navbar">
-        <a class="brand" href="index.html" aria-label="Salamina Off-Road Adventures home">
+        <a class="brand" href="index.html" aria-label="Salamina Off-Road Adventures αρχική">
           <svg viewBox="0 0 64 64" aria-hidden="true">
             <path
               d="M8 44l16-28h8l16 28h-6l-4-7H18l-4 7H8zm18-13h12l-6-10-6 10zM8 52h48v4H8z"
@@ -28,14 +28,14 @@
           Salamina Off-Road Adventures
         </a>
         <nav>
-          <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+          <button class="nav-toggle" aria-label="Εναλλαγή μενού" aria-expanded="false"><span></span></button>
           <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a class="active" href="prices.html">Prices</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html" class="btn">Book Now</a>
+            <a href="index.html">Αρχική</a>
+            <a href="about.html">Σχετικά</a>
+            <a class="active" href="prices.html">Τιμές</a>
+            <a href="gallery.html">Γκαλερί</a>
+            <a href="blog.html">Άρθρα</a>
+            <a href="contact.html" class="btn">Κράτηση</a>
           </div>
         </nav>
       </div>
@@ -44,82 +44,83 @@
     <main>
       <section class="page-hero">
         <div>
-          <h1>Pick Your Perfect Ride</h1>
+          <h1>Επίλεξε την Περιπέτεια σου</h1>
           <p>
-            Choose the duration that matches your adrenaline level. Every adventure includes a
-            professional guide, safety gear, and unforgettable views.
+            Οι διαδρομές μας είναι ιδανικές για ζευγάρια, παρέες ή εταιρικές ομάδες. Όλες οι τιμές
+            περιλαμβάνουν συνοδό, εξοπλισμό προστασίας και σύντομη εκπαίδευση.
           </p>
         </div>
       </section>
 
       <section class="section">
-        <h2>Guided Buggy Adventures</h2>
-        <p>
-          Our routes weave through Kanakia's forest roads, mountain climbs, and scenic
-          clearings. Each tour is tailored to the group's experience level with photo stops and
-          storytelling from our local guides.
-        </p>
-        <div class="tablet-grid" style="margin-top: 2.5rem">
-          <table class="pricing-table">
-            <thead>
-              <tr>
-                <th>Duration</th>
-                <th>Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>30 minutes</td>
-                <td>€40</td>
-              </tr>
-              <tr>
-                <td>1 hour</td>
-                <td>€60</td>
-              </tr>
-              <tr>
-                <td>2 hours</td>
-                <td>€110</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="callout">
-            <h3>Included in Every Ride</h3>
-            <ul class="facts-list">
-              <li>Guided off-road routes with experienced leaders</li>
-              <li>Protective gear: helmets, goggles, gloves</li>
-              <li>Safety briefing, driving tips, and photo breaks</li>
-              <li>Support vehicle and radio communication</li>
-            </ul>
-            <span class="badge">Guided off-road routes included</span>
-            <a class="btn" href="contact.html">Reserve Your Slot</a>
+        <div class="tablet-grid">
+          <div class="fade-in">
+            <h2>Πακέτα Buggy</h2>
+            <p>
+              Επιλέγεις διάρκεια, εμείς φροντίζουμε τα υπόλοιπα: προετοιμασία, briefing ασφαλείας,
+              φωτογραφικές στάσεις και δροσερά σημεία με θέα.
+            </p>
+          </div>
+          <div class="fade-in">
+            <table class="pricing-table" aria-describedby="pricing-info">
+              <thead>
+                <tr>
+                  <th scope="col">Διάρκεια</th>
+                  <th scope="col">Τιμή</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>30 λεπτά</td>
+                  <td>€40</td>
+                </tr>
+                <tr>
+                  <td>1 ώρα</td>
+                  <td>€60</td>
+                </tr>
+                <tr>
+                  <td>2 ώρες</td>
+                  <td>€110</td>
+                </tr>
+              </tbody>
+            </table>
+            <p id="pricing-info" class="badge">Περιλαμβάνονται καθοδηγούμενες off-road διαδρομές</p>
           </div>
         </div>
       </section>
 
       <section class="section section-dark">
-        <h2>Extras & Group Options</h2>
         <div class="split">
           <div class="fade-in">
-            <h3>Group Adventures</h3>
-            <p>
-              Planning a team-building day or a celebration? We customize multi-buggy convoys
-              with curated routes, forest picnics, and professional photography.
-            </p>
+            <h2>Τι Περιλαμβάνεται</h2>
+            <ul class="facts-list">
+              <li>Επαγγελματίας συνοδός με γνώση του εδάφους και πρώτες βοήθειες</li>
+              <li>Πλήρης εξοπλισμός ασφαλείας (κράνη, γυαλιά, γάντια)</li>
+              <li>Ασφάλιση ευθύνης, επικοινωνία με ασύρματο και υποστήριξη καθ’ όλη τη διαδρομή</li>
+            </ul>
           </div>
           <div class="fade-in">
-            <h3>Sunrise & Sunset Tours</h3>
+            <h2>Πρόσθετες Πληροφορίες</h2>
             <p>
-              Capture the golden light over Salamina's peaks with special departure times. Limited
-              availability—book in advance to secure your preferred slot.
+              Τα buggy φιλοξενούν δύο άτομα. Προτείνεται άνετη, αθλητική ενδυμασία. Επικοινώνησε μαζί
+              μας για εταιρικές ή tailor-made εκδρομές με μεγαλύτερη διάρκεια.
+            </p>
+            <p>
+              Απαιτείται δίπλωμα οδήγησης κατηγορίας Β και ηλικία άνω των 21 ετών για τον οδηγό.
+              Συνοδηγοί μπορούν να συμμετέχουν από 6 ετών και πάνω.
             </p>
           </div>
         </div>
+      </section>
+
+      <section class="section">
         <div class="callout">
+          <h2>Έτοιμος για Κράτηση;</h2>
           <p>
-            Ready to feel the dust, the breeze, and the adrenaline? Contact us for custom quotes
-            or multi-day adventure planning.
+            Επικοινώνησε μαζί μας για διαθεσιμότητα, ειδικές προσφορές και ομαδικές κρατήσεις. Θα
+            προσαρμόσουμε τη διαδρομή ώστε να ταιριάζει στους στόχους της παρέας σου.
           </p>
-          <a class="btn btn-outline" href="tel:+306900000000">Call Our Team</a>
+          <a class="btn" href="contact.html">Ζήτησε Διαθεσιμότητα</a>
         </div>
       </section>
     </main>
@@ -129,18 +130,18 @@
         <div>
           <p class="footer-brand">Salamina Off-Road Adventures</p>
           <p>
-            Guided buggy expeditions through Kanakia's untouched forest for thrill seekers and
-            nature lovers.
+            Καθοδηγούμενα buggy tours στο ανέγγιχτο δάσος της Κανάκιας για λάτρεις της περιπέτειας
+            και της φύσης.
           </p>
         </div>
         <div>
-          <h3>Contact</h3>
-          <p>Kanakia, Salamina 18903, Greece</p>
+          <h3>Επικοινωνία</h3>
+          <p>Κανάκια, Σαλαμίνα 18903</p>
           <p><a href="tel:+306900000000">+30 690 000 0000</a></p>
           <p><a href="mailto:info@salaminabuggies.gr">info@salaminabuggies.gr</a></p>
         </div>
         <div>
-          <h3>Follow</h3>
+          <h3>Ακολούθησε μας</h3>
           <div class="social-links">
             <a href="#" aria-label="Instagram">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
@@ -165,14 +166,14 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <span data-year></span> Salamina Off-Road Adventures. All rights reserved.</p>
-        <a class="btn btn-outline" href="contact.html">Plan Your Adventure</a>
+        <p>&copy; <span data-year></span> Salamina Off-Road Adventures. Όλα τα δικαιώματα διατηρούνται.</p>
+        <a class="btn btn-outline" href="contact.html">Σχεδίασε την Περιπέτεια</a>
       </div>
     </footer>
 
-    <div class="floating-cta" aria-label="Quick booking">
-      <a href="contact.html">Book Now</a>
-      <a class="whatsapp" href="https://wa.me/306900000000" target="_blank" rel="noopener">WhatsApp Us</a>
+    <div class="floating-cta" aria-label="Άμεση κράτηση">
+      <a href="contact.html">Κράτηση Τώρα</a>
+      <a class="whatsapp" href="https://wa.me/306900000000" target="_blank" rel="noopener">WhatsApp Μήνυμα</a>
     </div>
 
     <script src="assets/js/main.js" defer></script>

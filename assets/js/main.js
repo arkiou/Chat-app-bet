@@ -52,9 +52,9 @@ document.querySelectorAll('form').forEach(form => {
   form.addEventListener('submit', event => {
     const button = form.querySelector('button[type="submit"]');
     if (button) {
-      button.textContent = 'Sending...';
+      button.textContent = 'Αποστολή...';
       setTimeout(() => {
-        button.textContent = 'Request Sent!';
+        button.textContent = 'Η Αίτηση Εστάλη!';
         button.disabled = true;
       }, 400);
     }
